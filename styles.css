@@ -75,8 +75,15 @@ main {
 
 /* QR Code */
 .qrcode {
-    margin-top: 30px;
+   background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-top: 20px; /* Adds space above the QR code */
+    width: 100%;
+    display: grid;
+    place-items: center;
+    
 }
 /* Footer */
 footer {
