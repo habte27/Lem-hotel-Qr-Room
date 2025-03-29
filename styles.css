@@ -1,0 +1,94 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color, white);
+    color: var(--text-color, black);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Dark Mode Variables */
+:root {
+    --bg-color: white;
+    --text-color: black;
+}
+
+.dark-mode {
+    --bg-color: black;
+    --text-color: white;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #004aad;
+    color: white;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.language-toggle button {
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 250px;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3, .card p {
+    margin: 10px 0;
+}
+
+/* QR Code */
+.qrcode {
+    margin-top: 30px;
+    text-align: center;
+}
+/* Footer */
+footer {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
