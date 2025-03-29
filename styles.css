@@ -77,6 +77,8 @@ main {
 #qrcode {
     margin-top: 20px; /* Adds space above the QR code */
     width: 100%;
+    display: grid;
+    place-items: center;
   
 }
 /* Footer */
