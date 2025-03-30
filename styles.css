@@ -193,7 +193,11 @@ p {
         font-size: 0.8rem;
     }
 }
-
+.card-footer p {
+    font-size: 10px;
+    margin: 2px 0;
+    color: #555;
+        }
 /* QR Code */
 #qrcode {
     margin-top: 20px; /* Adds space above the QR code */
