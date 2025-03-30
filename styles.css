@@ -30,10 +30,10 @@ body {
 
 .control-button {
     background: none;
-    border: 2px solid transparent; /* Changed to transparent */
+    border: 1px solid transparent; /* Changed to transparent */
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
     transition: all 0.3s ease;
     display: flex;
