@@ -39,7 +39,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
     
 }
 
@@ -51,8 +50,8 @@ body {
 }
 
 .select-wrapper {
-    position: absolute;
-    right: 5;
+    position: relative;
+    right: 0;
 }
 
 .language-select {
