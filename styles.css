@@ -9,7 +9,7 @@ body {
 }
 
 /* Dark Mode Variables */
-:root {
+: root {
     --primary-color: #2c3e50;
     --background-color: #ffffff;
     --hover-color: #f0f0f0;
@@ -41,7 +41,7 @@ body {
     justify-content: center;
 }
 
-.control-button:hover, 
+.control-button: hover, 
 .control-button:focus {
     background-color: var(--hover-color);
     transform: scale(1.1);
@@ -110,20 +110,10 @@ header {
     color: white;
 }
 
-.controls {
-    display: flex;
-    gap: 10px;
-}
 
 main {
     padding: 20px;
     text-align: center;
-}
-
-.language-toggle button {
-    padding: 10px 20px;
-    margin: 10px;
-    cursor: pointer;
 }
 
 .menu {
