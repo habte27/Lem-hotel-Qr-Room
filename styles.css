@@ -125,6 +125,74 @@ p {
     }
 }
 
+/* General Styling */
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Bank Account Styling */
+p {
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+    margin: 5px 10px;
+}
+
+/* Bold and Visible Bank Account Numbers */
+#cbe, #dashen {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #222; /* Darker color for emphasis */
+}
+
+/* Finance Rules */
+.finance-rules {
+    font-size: 1rem;
+    text-align: center;
+    color: #e63946; /* Highlight finance rule in red */
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    #cbe, #dashen {
+        font-size: 1.1rem;
+    }
+
+    .finance-rules {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    #cbe, #dashen {
+        font-size: 1rem;
+    }
+
+    .finance-rules {
+        font-size: 0.8rem;
+    }
+}
 
 /* QR Code */
 #qrcode {
