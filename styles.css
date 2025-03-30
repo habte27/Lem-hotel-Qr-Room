@@ -39,6 +39,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    right: 0;
 }
 
 .control-button:hover, 
@@ -49,7 +51,8 @@ body {
 }
 
 .select-wrapper {
-    position: relative;
+    position: absolute;
+    right: 0;
 }
 
 .language-select {
