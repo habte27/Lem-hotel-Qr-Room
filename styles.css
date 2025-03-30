@@ -63,15 +63,68 @@ main {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.card img {
+/* General Styles */
+img {
     width: 100%;
-    height: 150px;
-    object-fit: cover;
+    max-width: 400px; /* Adjust the image size */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    border-radius: 10px; /* Optional: Adds rounded corners */
 }
 
-.card h3, .card p {
-    margin: 10px 0;
+/* Text Styling */
+h2 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin-top: 10px;
 }
+
+p {
+    font-size: 1rem;
+    text-align: center;
+    color: #666;
+    margin: 5px 10px;
+}
+
+/* Price Styling */
+.price {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #e63946;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+
+    .price {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+}
+
 
 /* QR Code */
 #qrcode {
