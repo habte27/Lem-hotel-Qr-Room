@@ -57,7 +57,7 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 300px;
+    width: 250px;
     padding: 20px;
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
@@ -66,7 +66,7 @@ main {
 /* General Styles */
 img {
     width: 100%;
-    max-width: 400px; /* Adjust the image size */
+    max-width: 100px; /* Adjust the image size */
     height: auto;
     display: block;
     margin: 0 auto; /* Center the image */
