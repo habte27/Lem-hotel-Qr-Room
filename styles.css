@@ -199,15 +199,15 @@ p {
     color: #555;
         }
 
-.card-header h2 {
-    font-size: 14px;
+.card h2 {
+    font-size: 17px;
     font-weight: 600;
     color: #007bff;
     margin-bottom: 5px;
 }
 
-.card-header p {
-    font-size: 12px;
+.card p {
+    font-size: 16px;
     color: #333;
 }
 /* QR Code */
@@ -216,6 +216,7 @@ p {
     width: 100%;
     display: grid;
     place-items: center;
+    padding: 10px;
   
 }
 /* Footer */
