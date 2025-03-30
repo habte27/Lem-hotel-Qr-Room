@@ -66,10 +66,8 @@ main {
 /* General Styles */
 img {
     width: 100%;
-    max-width: 100px; /* Adjust the image size */
-    height: auto;
-    display: block;
-    margin: 0 auto; /* Center the image */
+    height: 150px;
+    object-fit: cover;/
     border-radius: 10px; /* Optional: Adds rounded corners */
 }
 
