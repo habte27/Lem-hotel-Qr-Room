@@ -12,9 +12,9 @@ const menuData = {
         product2name: "Double Standard King-Size Bedrooms",
         product2desc: "Durable king-size bed for two, crafted with quality materials. Ideal for bedrooms or large families. ",
         product2price: "Price: ETB 1,000.00",
-        product3name: "Double Standard King-Size Bedrooms",
-        product3desc: "Durable king-size bed for two, crafted with quality materials. Ideal for bedrooms or large families. ",
-        product3price: "Price: ETB 1,000.00"
+        product3name: "Twin Bed Room",
+        product3desc: "The Twin Bed Room offers a comfortable and spacious stay, ideal for two guests ",
+        product3price: "Price: ETB 1,500.00"
     },
     am: {
         product1name: "መደበኛ ነጠላ አልጋ",
@@ -22,7 +22,7 @@ const menuData = {
         product1price: " 900.00 ብር",
         product2name: "መደበኛ ድርብ (ንግ ሳይዝ አልጋ)",
         product2desc: "ይህ የሁለት ሰዎች የተቀየሰ እና ጠንካራ ቁሳቁሶች የተሰራ ድርብ ኪንግ ሳይዝ አልጋ ለመኝታ ክፍሎች ወይም ትላልቅ ቤተሰቦች ተስማሚ ነው።",
-        product2price: "1000 ብር",
+        product2price: "1000.00 ብር",
         product3name: "መደበኛ ድርብ (ንግ ሳይዝ አልጋ)",
         product3desc: "ይህ የሁለት ሰዎች የተቀየሰ እና ጠንካራ ቁሳቁሶች የተሰራ ድርብ ኪንግ ሳይዝ አልጋ ለመኝታ ክፍሎች ወይም ትላልቅ ቤተሰቦች ተስማሚ ነው።",
         product3price: "1500.00 ብር"
