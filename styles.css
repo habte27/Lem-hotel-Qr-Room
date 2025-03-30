@@ -308,10 +308,31 @@ p {
 }
 /* Footer */
 footer {
-    padding: 10px;
-    background-color: #333;
-    color: white;
+    background: linear-gradient(to right, #3498db, #8e44ad); /* Gradient matching header */
+    color: #ffffff; /* White text for readability */
+    text-align: center; /* Center text */
+    padding: 20px; /* Comfortable spacing */
+    font-family: 'Georgia', serif; /* Elegant font */
+    border-top: 4px solid #d4af37; /* Gold accent for luxury */
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2); /* Subtle top shadow */
+    font-size: 16px; /* Readable text size */
 }
+
+footer p {
+    margin: 5px 0; /* Adjust margins for better spacing */
+}
+
+footer a {
+    color: #f1c40f; /* Gold-colored links */
+    text-decoration: none; /* Remove default underline */
+    font-weight: bold; /* Make links stand out */
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+footer a: hover {
+    color: #ffffff; /* White on hover for contrast */
+}
+
 
 /* Responsive Design */
 @media (max-width: 600px) {
