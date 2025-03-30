@@ -49,17 +49,6 @@ function loadLanguage(lang) {
 languageSelect.addEventListener("change", (e) => {
     loadLanguage(e.target.value);
 });
-
-document.addEventListener("DOMContentLoaded", function () {
-    const themeToggle = document.getElementById("theme-toggle");
-    const body = document.body;
-
-    // Check localStorage for theme preference
-    if (localStorage.getItem("theme") === "dark") {
-        body.classList.add("dark-mode");
-        themeToggle.innerHTML = "☀️"; // Sun icon
-        themeToggle.classList.add("sun-color"); // Add a class to change color
-    }
 // Load Saved Preferences
 const savedLang = localStorage.getItem("language") || "en";
 languageSelect.value = savedLang;
