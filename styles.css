@@ -105,7 +105,7 @@ header {
     background: linear-gradient(to right, #8e44ad, #3498db); /* Elegant gradient effect */
     color: #ffffff; /* White text for readability */
     text-align: center; /* Center text */
-    padding: 25px 15px; /* Spacious padding */
+    padding: 30px 20px; /* Spacious padding */
     font-family: 'Georgia', serif; /* Classy and elegant font */
     border-bottom: 4px solid #d4af37; /* Gold accent for a luxury feel */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
@@ -315,13 +315,14 @@ p {
 /* Footer */
 footer {
     background: linear-gradient(to right, #1d3557, #5a189a); /* Matching dark gradient */
-    color: #f8f9fa; /* Lighter text for readability */
+    color: #ffffff; /* Lighter text for readability */
     text-align: center;
     padding: 20px;
     font-family: 'Georgia', serif;
     border-top: 4px solid #ffd700;
     box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
     font-size: 16px;
+    
 }
 
 footer p {
