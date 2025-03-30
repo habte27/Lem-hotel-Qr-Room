@@ -101,12 +101,13 @@ body {
 }
 /* Header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    background-color: #004aad;
-    color: white;
+    background: linear-gradient(to right, #8e44ad, #3498db); /* Elegant gradient effect */
+    color: #ffffff; /* White text for readability */
+    text-align: center; /* Center text */
+    padding: 25px 15px; /* Spacious padding */
+    font-family: 'Georgia', serif; /* Classy and elegant font */
+    border-bottom: 4px solid #d4af37; /* Gold accent for a luxury feel */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
 .controls {
