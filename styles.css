@@ -314,7 +314,7 @@ p {
 }
 /* Footer */
 footer {
-    background: linear-gradient(to right, #1d3557, #5a189a); /* Matching dark gradient */
+    background: #1A1A1A; /* Matching dark gradient */
     color: #ffffff; /* Lighter text for readability */
     text-align: center;
     padding: 20px;
