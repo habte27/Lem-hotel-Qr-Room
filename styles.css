@@ -308,29 +308,29 @@ p {
 }
 /* Footer */
 footer {
-    background: linear-gradient(to right, #3498db, #8e44ad); /* Gradient matching header */
-    color: #ffffff; /* White text for readability */
-    text-align: center; /* Center text */
-    padding: 20px; /* Comfortable spacing */
-    font-family: 'Georgia', serif; /* Elegant font */
-    border-top: 4px solid #d4af37; /* Gold accent for luxury */
-    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2); /* Subtle top shadow */
-    font-size: 16px; /* Readable text size */
+    background: linear-gradient(to right, #1d3557, #5a189a); /* Matching dark gradient */
+    color: #f8f9fa; /* Lighter text for readability */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    border-top: 4px solid #ffd700;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
 }
 
 footer p {
-    margin: 5px 0; /* Adjust margins for better spacing */
+    margin: 5px 0;
 }
 
 footer a {
-    color: #f1c40f; /* Gold-colored links */
-    text-decoration: none; /* Remove default underline */
-    font-weight: bold; /* Make links stand out */
-    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+    color: #ffd700; /* Gold links for visibility */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
 }
 
-footer a: hover {
-    color: #ffffff; /* White on hover for contrast */
+footer a:hover {
+    color: #f8f9fa; /* White on hover */
 }
 
 
