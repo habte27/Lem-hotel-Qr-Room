@@ -1,6 +1,5 @@
 // Elements
-const themeToggle = document.getElementById('theme-toggle');
-const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark': 'light');
+const themeToggle = document.getElementById("theme-toggle");
 const languageSelect = document.getElementById("language-select");
 const body = document.body;
 
@@ -52,21 +51,31 @@ languageSelect.addEventListener("change", (e) => {
     loadLanguage(e.target.value);
 });
 
-// Set initial theme
-document.documentElement.setAttribute('data-theme', savedTheme);
-themeToggle.textContent = savedTheme === 'dark' ? '☀️' : '🌙';
+document.addEventListener("DOMContentLoaded", function () {
+    const themeToggle = document.getElementById("theme-toggle");
+    const body = document.body;
 
-themeToggle.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light': 'dark';
-    
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-    themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
-    
-    // Optional: Add animation class
-    themeToggle.classList.add('theme-changed');
-    setTimeout(() => themeToggle.classList.remove('theme-changed'), 200);
+    // Check localStorage for theme preference
+    if (localStorage.getItem("theme") === "dark") {
+        body.classList.add("dark-mode");
+        themeToggle.innerHTML = "☀️"; // Sun icon
+        themeToggle.classList.add("sun-color"); // Add a class to change color
+    }
+
+    themeToggle.addEventListener("click", function () {
+        body.classList.toggle("dark-mode");
+
+        if (body.classList.contains("dark-mode")) {
+            localStorage.setItem("theme", "dark");
+            themeToggle.innerHTML = "☀️"; // Change to sun icon
+            themeToggle.classList.add("sun-color"); // Apply color change
+        } else {
+            localStorage.setItem("theme", "light");
+            themeToggle.innerHTML = "🌙"; // Change to moon icon
+            themeToggle.classList.remove("sun-color"); // Remove color change
+        }
+    });
+});
 
 // Load Saved Preferences
 const savedLang = localStorage.getItem("language") || "en";
