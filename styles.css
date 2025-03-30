@@ -40,7 +40,7 @@ body {
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: 0;
+    
 }
 
 .control-button:hover, 
@@ -52,7 +52,7 @@ body {
 
 .select-wrapper {
     position: absolute;
-    right: 0;
+    right: 5;
 }
 
 .language-select {
