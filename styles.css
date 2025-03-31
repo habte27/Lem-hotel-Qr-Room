@@ -121,7 +121,7 @@ main {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 img{
-    width: 240px;
+    width: 250px;
     height: 150px;
     object-fit: cover;
      border-radius: 10px;
