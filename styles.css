@@ -122,7 +122,7 @@ main {
 }
 img{
     width: 250px;
-    height: 150px;
+    height: 180px;
     object-fit: cover;
      border-radius: 10px;
 }
