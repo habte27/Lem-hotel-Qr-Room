@@ -270,10 +270,10 @@ p {
 /* QR Code */
 #qrcode {
     margin-top: 20px; /* Adds space above the QR code */
-    width: 80%;
+    width: 100%;
     display: grid;
     place-items: center;
-    padding: 10px;
+    padding: 20px;
   
 }
 /* Footer */
