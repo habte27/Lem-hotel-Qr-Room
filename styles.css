@@ -120,7 +120,12 @@ main {
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+.cards {
+    width: 150%;
+    height: 150px;
+    object-fit: cover;/
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
 
 /* General Styles */
 img {
