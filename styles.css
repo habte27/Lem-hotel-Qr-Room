@@ -121,10 +121,12 @@ main {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 .cards {
-    width: 150%;
+    width: 200px;
     height: 150px;
-    object-fit: cover;/
-    border-radius: 10px; /* Optional: Adds rounded corners */
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 /* General Styles */
