@@ -19,24 +19,6 @@ body {
     align-items: center;
     padding: 0.5rem;
 }
-.control-button {
-    background: none;
-    border: 1px solid transparent; /* Changed to transparent */
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
-}
-.control-button: hover, 
-.control-button:focus {
-    background-color: var(--hover-color);
-    transform: scale(1.1);
-    border-color: transparent; /* Ensure border stays transparent */
-}
 .select-wrapper {
     position: relative;
 }
@@ -318,7 +300,7 @@ footer a {
     transition: color 0.3s ease-in-out;
 }
 
-footer a:hover {
+footer a: hover {
     color: #f8f9fa; /* White on hover */
 }
 
