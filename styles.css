@@ -120,7 +120,17 @@ main {
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
-
+.card-image {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* General Styles */
 img {
     width: 150%;
