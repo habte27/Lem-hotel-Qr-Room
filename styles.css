@@ -171,18 +171,18 @@ main {
   cursor: pointer;
 }
 
-.author {
+.price {
   color: gray;
   font-weight: 400;
   font-size: 11px;
   padding-top: 20px;
 }
 
-.name {
+.etb {
   font-weight: 600;
 }
 
-.name: hover {
+.etb: hover {
   cursor: pointer;
 }
 
