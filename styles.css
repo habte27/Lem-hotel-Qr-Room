@@ -122,22 +122,14 @@ main {
 }
 .card-image {
   background-color: rgba(0, 0, 0, 0.1);
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   border-radius: 6px;
   flex-shrink: 0;
   margin-right: 10px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-/* General Styles */
-img {
-    width: 180%;
-    height: 180px;
-    object-fit: cover;/
-    border-radius: 10px; /* Optional: Adds rounded corners */
-    margin-right: 10px;
 }
 
 /* Text Styling */
