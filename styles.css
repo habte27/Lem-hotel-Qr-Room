@@ -270,7 +270,7 @@ p {
 /* QR Code */
 #qrcode {
     margin-top: 20px; /* Adds space above the QR code */
-    width: 100%;
+    width: 80%;
     display: grid;
     place-items: center;
     padding: 10px;
