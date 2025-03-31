@@ -55,7 +55,7 @@ languageSelect.value = savedLang;
 loadLanguage(savedLang);
 // Generate QR code for the menu URL
 const qrcode = new QRCode(document.getElementById("qrcode"), {
-    text: "https://lem-hotel-qr-room-git-main-habtamu-shiferaw-adugnas-projects.vercel.app/", // Replace with your actual URL
+    text: "https://lem-hotel-qr-room.vercel.app/", // Replace with your actual URL
     width: 128,
     height: 128,
     colorDark: "#000000",
