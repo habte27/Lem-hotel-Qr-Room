@@ -122,8 +122,8 @@ main {
 }
 .card-image {
   background-color: rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   border-radius: 6px;
   flex-shrink: 0;
   margin-right: 10px;
@@ -133,12 +133,11 @@ main {
 }
 /* General Styles */
 img {
-    width: 150%;
-    height: 150px;
+    width: 180%;
+    height: 180px;
     object-fit: cover;/
     border-radius: 10px; /* Optional: Adds rounded corners */
     margin-right: 10px;
-    background-position: center;
 }
 
 /* Text Styling */
