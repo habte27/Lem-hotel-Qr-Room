@@ -320,3 +320,77 @@ footer a: hover {
         align-items: center;
     }
 }
+
+/* From Uiverse.io by R1SH4BH81 */ 
+.cards {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  background: white;
+  padding: 0.4em;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-images {
+  background-color: rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 150px;
+  border-radius: 6px;
+  flex-shrink: 0;
+  margin-right: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-images:hover {
+  transform: scale(0.98);
+  transition: transform 0.3s ease;
+}
+
+.card-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.categorys {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding-bottom: 5px;
+  text-align: left; /* Align text to the left */
+}
+
+.categorys:hover {
+  cursor: pointer;
+}
+
+.headings {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  margin-bottom: 10px;
+  text-align: left; /* Align text to the left */
+}
+
+.headings:hover {
+  cursor: pointer;
+}
+
+.authors {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  text-align: left; /* Align text to the left */
+}
+
+.names {
+  font-weight: 600;
+}
+
+.names:hover {
+  cursor: pointer;
+}
