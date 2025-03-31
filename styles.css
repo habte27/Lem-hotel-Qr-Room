@@ -149,17 +149,6 @@ main {
     text-align: center;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
- .card-image {
-  background-color: rgb(236, 236, 236);
-  width: 100%;
-  height: 130px;
-  border-radius: 6px 6px 0 0;
-}
-
-.card-image:hover {
-  transform: scale(0.98);
-}
-
 .category {
   text-transform: uppercase;
   font-size: 0.7em;
