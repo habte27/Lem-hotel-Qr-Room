@@ -334,7 +334,7 @@ footer a: hover {
 
 .card-images {
   background-color: rgba(0, 0, 0, 0.1);
-  width: 200px;
+  width: 150px;
   height: 150px;
   border-radius: 6px;
   flex-shrink: 0;
