@@ -7,21 +7,18 @@ body {
     padding: 0;
     text-align: center;
 }
-
-/* Dark Mode Variables */
-:root {
+/* variable language select */
+: root {
     --primary-color: #2c3e50;
     --background-color: #ffffff;
     --hover-color: #f0f0f0;
 }
-
 .controls {
     display: flex;
     gap: 1rem;
     align-items: center;
     padding: 0.5rem;
 }
-
 .control-button {
     background: none;
     border: 1px solid transparent; /* Changed to transparent */
@@ -35,18 +32,15 @@ body {
     justify-content: center;
     
 }
-
-.control-button:hover, 
+.control-button: hover, 
 .control-button:focus {
     background-color: var(--hover-color);
     transform: scale(1.1);
     border-color: transparent; /* Ensure border stays transparent */
 }
-
 .select-wrapper {
     position: relative;
 }
-
 .language-select {
     appearance: none;
     background-color: var(--background-color);
@@ -58,14 +52,12 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
 }
-
-.language-select:hover,
+.language-select: hover,
 .language-select:focus {
     border-color: transparent; /* Removed border color change */
     outline: none;
     background-color: var(--hover-color);
 }
-
 .custom-arrow {
     position: absolute;
     right: 12px;
@@ -76,7 +68,6 @@ body {
     border-right: 5px solid transparent;
     border-top: 6px solid var(--primary-color);
 }
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -87,7 +78,6 @@ body {
     clip: rect(0, 0, 0, 0);
     border: 0;
 }
-
 @media (prefers-reduced-motion: reduce) {
     .control-button,
     .language-select {
