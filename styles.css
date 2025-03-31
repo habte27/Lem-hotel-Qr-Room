@@ -126,7 +126,7 @@ main {
   height: 200px;
   border-radius: 6px;
   flex-shrink: 0;
-  margin-right: 10px;
+  margin-right: 0.5px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
