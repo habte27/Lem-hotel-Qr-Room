@@ -62,3 +62,19 @@ const qrcode = new QRCode(document.getElementById("qrcode"), {
     colorLight: "#ffffff",
     correctLevel: QRCode.CorrectLevel.H
 });
+// Generate QR Code
+        var qrContainer = document.getElementById("qrcode");
+        var qrcode = new QRCode(qrContainer, {
+            text: "https://yourwebsite.com",
+            width: 200,
+            height: 200
+        });
+
+        function downloadQR() {
+            let qrCanvas = qrContainer.querySelector("canvas"); // Get QR canvas
+            let img = qrCanvas.toDataURL("image/png"); // Convert to image
+
+            let link = document.createElement("a");
+            link.href = img;
+            link.download = "qrcode.png";
+            link.click();
