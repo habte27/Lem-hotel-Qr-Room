@@ -9,10 +9,10 @@ const menuData = {
         product1desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
         product1price: " Price: ETB 900.00",
         product2name: "Double Standard King-Size Bedrooms",
-        product2desc: "Durable king-size bed for two, crafted with quality materials. Ideal for bedrooms or large families. ",
+        product2desc: " Enjoy our exclusive room service menu with delicious meals delivered to your door. ",
         product2price: "Price: ETB 1,000.00",
         product3name: "Twin Bed Room",
-        product3desc: "The Twin Bed Room offers a comfortable and spacious stay, ideal for two guests ",
+        product3desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
         product3price: "Price: ETB 1,500.00"
     },
     am: {
