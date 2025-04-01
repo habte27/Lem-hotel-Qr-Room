@@ -5,13 +5,13 @@ const body = document.body;
 // Language Data
 const menuData = {
     en: {
-        product1name: "Single Standard Bedrooms",
+        product1name: "Single Standard Bedroom",
         product1desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
         product1price: " Price: ETB 900.00",
-        product2name: "Double Standard King-Size Bedrooms",
+        product2name: "Double Standard King-Size Bedroom",
         product2desc: " Enjoy our exclusive room service menu with delicious meals delivered to your door. ",
         product2price: "Price: ETB 1,000.00",
-        product3name: "Twin Bed Room",
+        product3name: "Twin Bedroom",
         product3desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
         product3price: "Price: ETB 1,500.00"
     },
