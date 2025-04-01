@@ -126,12 +126,6 @@ img{
     object-fit: cover;
      border-radius: 10px;
 }
-.cards{
-    width:250px;
-    height:180px;
-    object-fit:cover;
-    position:fixed;
-}
     
 /* Text Styling */
 h2 {
@@ -272,14 +266,16 @@ p {
 }
 /* QR Code */
 #qrcode {
-    margin-top: 20px; /* Adds space above the QR code */
+    margin: 20px; /* Adds space above the QR code */
     width: 100%;
     display: grid;
     place-items: center;
     padding: 10px;
     margin:5px;
-  
+    object-fit:cover;
+    position:fixed
 }
+
 /* Footer */
 footer {
     background: #1A1A1A; /* Matching dark gradient */
