@@ -311,30 +311,14 @@ footer a: hover {
     }
 }
 
-.room-package {
-  position: relative;
-  margin-top: 15px;
-  font-size: 18px;
-  color: #333;
-  font-weight: bold;
-  background: linear-gradient(135deg, #f8f8f8, #fff);
-  padding: 15px;
-  border-radius: 8px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
 
-.room-package:hover {
-  transform: translateY(-5px);
-  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2);
-}
 
-.room-package ul {
+ul {
   list-style: none;
   padding: 0;
 }
 
-.room-package li {
+ li {
   margin: 10px 0;
   display: flex;
   align-items: center;
@@ -345,7 +329,7 @@ footer a: hover {
   transition: color 0.3s ease;
 }
 
-.room-package li:hover {
+li:hover {
   color: #007BFF;
   transform: scale(1.05);
 }
