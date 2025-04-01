@@ -137,11 +137,12 @@ h2 {
 
 p {
     font-size: 1rem;
-    text-align: center;
     color: #666;
     text-align:justify;
 }
-
+#product1-desc{
+    text-align:justify;
+ }
 /* Price Styling */
 .price {
     font-size: 1.5rem;
