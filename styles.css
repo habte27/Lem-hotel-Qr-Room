@@ -272,8 +272,8 @@ p {
     place-items: center;
     padding: 10px;
     margin:5px;
-    object-fit:cover;
-    position:fixed
+    
+    position:fixed;
 }
 
 /* Footer */
