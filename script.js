@@ -8,8 +8,8 @@ const menuData = {
         product1name: "Single Standard Bedroom",
         product1desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
         product1price: " Price: ETB 900.00",
-        product2name: "Double Standard King-Size Bedroom",
-        product2desc: " Enjoy our exclusive room service menu with delicious meals delivered to your door. ",
+        product2name: "Double Standard Bedroom",
+        product2desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
         product2price: "Price: ETB 1,000.00",
         product3name: "Twin Bedroom",
         product3desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
@@ -18,13 +18,13 @@ const menuData = {
     am: {
         product1name: "መደበኛ ነጠላ አልጋ",
         product1desc: "ይህ መደበኛ ነጠላ አልጋ ለአንድ ሰው የተዘጋጀ ሲሆን፣ ጠንካራ ቁሳቁሶች በመጠቀም የተሰራ እና ለእረፍት ክፍሎች ተስማሚ ነው።",
-        product1price: " 900.00 ብር",
+        product1price: "ዋጋ: 900.00 ብር",
         product2name: "መደበኛ ድርብ (ንግ ሳይዝ አልጋ)",
         product2desc: "ይህ የሁለት ሰዎች የተቀየሰ እና ጠንካራ ቁሳቁሶች የተሰራ ድርብ ኪንግ ሳይዝ አልጋ ለመኝታ ክፍሎች ወይም ትላልቅ ቤተሰቦች ተስማሚ ነው።",
-        product2price: "1000.00 ብር",
+        product2price: "ዋጋ: 1000.00 ብር",
         product3name: "መደበኛ ድርብ (ንግ ሳይዝ አልጋ)",
         product3desc: "ይህ የሁለት ሰዎች የተቀየሰ እና ጠንካራ ቁሳቁሶች የተሰራ ድርብ ኪንግ ሳይዝ አልጋ ለመኝታ ክፍሎች ወይም ትላልቅ ቤተሰቦች ተስማሚ ነው።",
-        product3price: "1500.00 ብር"
+        product3price: "ዋጋ: 1500.00 ብር"
     }
 };
 
