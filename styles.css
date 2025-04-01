@@ -140,8 +140,9 @@ p {
     color: #666;
     text-align:justify;
 }
-#product1-desc{
+#product1-desc #product2-desc #product3-desc{
     text-align:justify;
+    font-height:1.5pt;
  }
 /* Price Styling */
 .price {
