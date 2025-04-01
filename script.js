@@ -6,7 +6,7 @@ const body = document.body;
 const menuData = {
     en: {
         product1name: "Single Standard Bedrooms",
-        product1desc: ">Enjoy our exclusive room service menu with delicious meals delivered to your door.",
+        product1desc: "Enjoy our exclusive room service menu with delicious meals delivered to your door.",
         product1price: " Price: ETB 900.00",
         product2name: "Double Standard King-Size Bedrooms",
         product2desc: "Durable king-size bed for two, crafted with quality materials. Ideal for bedrooms or large families. ",
