@@ -139,7 +139,7 @@ p {
     font-size: 1rem;
     text-align: center;
     color: #666;
-    margin: 5px 10px;
+    text-align:justify;
 }
 
 /* Price Styling */
