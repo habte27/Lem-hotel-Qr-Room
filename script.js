@@ -62,25 +62,6 @@ const qrcode = new QRCode(document.getElementById("qrcode"), {
     colorLight: "#ffffff",
     correctLevel: QRCode.CorrectLevel.H
 });
-let qrContainer = document.getElementById("qrcode");
 
-        let qrcode = new QRCode(qrContainer, {
-            text: "https://lem-hotel-qr-room.vercel.app/", // Change to your link
-            width: 200,
-            height: 200
-        });
-
-        // Ensure QR code loads before attaching event
-        setTimeout(() => {
-            let qrCanvas = qrContainer.querySelector("canvas"); // Get QR canvas
-
-            qrContainer.addEventListener("click", function () {
-                let img = qrCanvas.toDataURL("image/png"); // Convert QR to image
-                let link = document.createElement("a");
-                link.href = img;
-                link.download = "qrcode.png";
-                link.click();
-            });
-        }, 500); // Small delay to ensure QR is generated
 
 
