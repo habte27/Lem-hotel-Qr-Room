@@ -142,7 +142,9 @@ p {
 }
 #product1-desc, #product2-desc, #product3-desc{
     text-align:justify;
-    font-height:1.5pt;
+    font-size:1rem;
+    line-height:1.5;
+    word-wrap:break-word;
  }
 /* Price Styling */
 .price {
