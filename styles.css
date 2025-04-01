@@ -126,6 +126,12 @@ img{
     object-fit: cover;
      border-radius: 10px;
 }
+.cards{
+    width:250px;
+    height:180px;
+    object-fit:cover;
+    position:fixed;
+}
     
 /* Text Styling */
 h2 {
