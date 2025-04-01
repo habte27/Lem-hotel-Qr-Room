@@ -320,7 +320,7 @@ ul {
 }
 
  li {
-  margin: 10px 0;
+  margin: 20px;
   display: flex;
   align-items:flex-start;
   justify-content: flex-start;
